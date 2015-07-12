@@ -37,11 +37,7 @@ button {
 }
 .flex-container {
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+    flex-wrap: wrap;    
 }
 
 .flex-nav {
@@ -74,10 +70,10 @@ button {
 }
 				
  .flex-card {
+ 	flex:1;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 400px;
-    height:480px;
     background: $indigo;
     margin:.5rem;
      -webkit-transition: all 250ms;
@@ -133,7 +129,7 @@ button {
 		color:$white;
 		padding:1rem;
 		border-top: solid 1px $divider-gray;
-		align-item:stretch;
+		align-item:flex-end;
 	}
 		.footer > p {
 			font-size:.75rem;
