@@ -55,12 +55,16 @@ button {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 400px;
+  display: flex;
+  flex-wrap: wrap;
   background: #3F51B5;
   margin: .5rem;
   -webkit-transition: all 250ms;
   -moz-transition: all 250ms;
   transition: all 250ms;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .flex-card div {
+    flex: 100%; }
   .flex-card .heading {
     padding: 1rem; }
     .flex-card .heading img {
@@ -93,8 +97,5 @@ button {
     color: #ffffff;
     padding: 1rem;
     border-top: solid 1px #B6B6B6;
-    align-item: flex-end; }
-  .flex-card .footer > p {
+    align-self: flex-end;
     font-size: .75rem; }
-
-/*# sourceMappingURL=app.css.map */
