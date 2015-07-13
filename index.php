@@ -34,10 +34,10 @@
             <h1>Material Flex Cards</h1>
                 <h2>The is a small project to utilize material design, flexbox, and information cards.</h2>
                     <p>Click a card type to have it display</p>
-                    <button>Image Card</button>
-                    <button>To Do List Card</button>
-                    <button>Video Card</button>
-                    <button>Map Card</button>
+                    <button class="button raised">
+                      <div class="center" fit>SUBMIT</div>
+                      <paper-ripple fit></paper-ripple>
+                    </button>
         </div>
 
         <div class="flex-container animated zoomIn">
