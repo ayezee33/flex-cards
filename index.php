@@ -33,11 +33,8 @@
         <div class="featured">
             <h1>Material Flex Cards</h1>
                 <h2>The is a small project to utilize material design, flexbox, and information cards.</h2>
-                    <p>Click a card type to have it display</p>
-                    <button class="button raised">
-                      <div class="center" fit>SUBMIT</div>
-                      <paper-ripple fit></paper-ripple>
-                    </button>
+                    <p>Click the button to create cards.</p>
+                    <button>Generate Card</button>
         </div>
 
         <div class="flex-container animated zoomIn">
