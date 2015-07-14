@@ -1,6 +1,6 @@
 
 /*=======GLOBALS======*/
-$indigo:#3F51B5;
+$primary:#3F51B5;
 $dark-primary:#303F9F;
 $deep-orange:#FF5722;
 $cyan:#0097A7;
@@ -52,7 +52,7 @@ button {
 }
 
 .featured {
-	background:$indigo;
+	background:$primary;
 	color:$white;
 	text-wrap:normal;
 	width:100%;
@@ -76,7 +76,7 @@ button {
 	flex-basis:400px;
 	display:flex;
 	flex-wrap:wrap;
-	background:$indigo;
+	background:$primary;
 	margin:.5rem;
 	-webkit-transition:all 250ms;
 	-moz-transition:all 250ms;
