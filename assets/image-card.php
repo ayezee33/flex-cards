@@ -1,12 +1,6 @@
 <div class="flex-card">
-    <div class="heading">
-        <img src="images/man.svg">
-            <h2>This is a title</h2>
-                <span>This is a subheading</span>
-    </div><!--End of Heading-->
-
-    <div class="content">
-        <img class="featured-img" src="images/sunrise.jpg">
+    <div class="content-img">
+    	<h3>This is a title</h3>
     </div><!--End of Content-->
 
     <div class="footer">

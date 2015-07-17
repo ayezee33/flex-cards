@@ -1,9 +1,4 @@
 <div class="flex-card cyan">
-    <div class="heading">
-        <img src="images/woman.svg">
-            <h2>This is a title</h2>
-                <span>This is a subheading</span>
-    </div><!--End of Heading-->
 
     <div class="content">
         <p>Tuesday March 15th To Do List</p>

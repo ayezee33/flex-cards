@@ -12,10 +12,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="stylesheets/app.css">
         <srcipt src="js/wow.min.js"></srcipt>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
         <script>
             new WOW().init();
         </script>
@@ -38,18 +38,64 @@
         </div>
 
         <div class="flex-container animated zoomIn">
-            <!--=============CARD #1=======-->
-            <?php include("assets/image-card.php"); ?>
-            <!--=============CARD #2=======-->
-            <?php include("assets/to-do-card.php"); ?>
-            <!--=============CARD #3=======-->
-            <?php include("assets/video-card.php"); ?>
-            <!--=============CARD #4=======-->
-            <?php include("assets/to-do-card.php"); ?>
-            <!--=============CARD #5=======-->
-            <?php include("assets/map-card.php"); ?>
-            <!--=============CARD #6=======-->
-            <?php include("assets/image-card.php"); ?>
+            <div class="flex-card">
+                <div class="hero">
+                    <h3>This is a title</h3>
+                </div><!--End of Hero-->
+
+                <div class="content">
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
+                </div><!--End of Content-->
+
+                <div class="footer">
+                    <p>This is the footer content</p>
+                </div><!--End Footer-->
+            </div><!--End Flex Card-->
+
+            <div class="flex-card">
+                <div class="hero">
+                    <h3>This is a title</h3>
+                </div><!--End of Hero-->
+
+                <div class="content">
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
+                </div><!--End of Content-->
+
+                <div class="footer">
+                    <p>This is the footer content</p>
+                </div><!--End Footer-->
+            </div><!--End Flex Card-->
+
+            <div class="flex-card">
+                <div class="hero">
+                    <h3>This is a title</h3>
+                </div><!--End of Hero-->
+
+                <div class="content">
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
+                </div><!--End of Content-->
+
+                <div class="footer">
+                    <p>This is the footer content</p>
+                </div><!--End Footer-->
+            </div><!--End Flex Card-->
+
+            <div class="flex-card">
+                <div class="hero">
+                    <h3>This is a title</h3>
+                </div><!--End of Hero-->
+
+                <div class="content">
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
+                </div><!--End of Content-->
+
+                <div class="footer">
+                    <p>This is the footer content</p>
+                </div><!--End Footer-->
+            </div><!--End Flex Card-->
+
+
+   
             
         </div> <!--End Container-->   
 
