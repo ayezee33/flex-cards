@@ -11,93 +11,77 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="stylesheets/app.css">
-        <link rel="stylesheet" href="stylesheets/fab.css">
-        <script src="js/fab.js"></script>
+        <srcipt src="js/wow.min.js"></srcipt>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+        <script>
+            new WOW().init();
+        </script>
     </head>
     <body>
+
+        <div class="flex-container">
+
+            <div class="flex-nav">
+                <img class="flex-menu" src="images/menu.svg">
+            </div>
+        </div>
+
+
+        <div class="featured">
+            <h1>Material Flex Cards</h1>
+                <h2>The is a small project to utilize material design, flexbox, and information cards.</h2>
+                    <p>Click the button to create cards.</p>
+                    <button class="hvr-pop"><img src="images/plus.svg"></button>
+        </div>
+
         <div class="flex-container">
             <div class="flex-card">
-                <div class="heading">
-                    <img src="images/man.svg">
-                        <h2>This is a title</h2>
-                            <span>This is a subheading</span>
-
-
-
-
-<h1>Material FAB 2</h1>
-<div class="fixed-action-btn">
-  <a id="btn-main" class="btn-primary btn-floating btn-large red" data-active-text="✌" data-text="☟"></a>
-  <ul>
-    <li>
-      <a class="btn-secondary btn-floating red">♕</a>
-    </li>
-    <li>
-      <a class="btn-secondary btn-floating yellow">♜</a>
-    </li>
-    <li>
-      <a class="btn-secondary btn-floating green"><i>♞</i></a>
-    </li>
-    <li>
-      <a class="btn-secondary btn-floating blue">♚</a>
-    </li>
-  </ul>
-</div>
-
-
-                </div><!--End of Heading-->
+                <div class="hero">
+                    <h3>Material Design Flex Card</h3>
+                </div><!--End of Hero-->
 
                 <div class="content">
-                    <img class="featured-img" src="images/sunrise.jpg">
-                    <p>This is content for the material flexbox card section. Woot woot. Now what we need to figure out is how we can make a sticky footer. ARGHHHH</p>
+                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
                 </div><!--End of Content-->
 
                 <div class="footer">
-                    <p>This is the footer content</p>
+                    <p>Learn More</p>
                 </div><!--End Footer-->
             </div><!--End Flex Card-->
-
-            <!--=============CARD #2=======-->
 
             <div class="flex-card">
-                <div class="heading">
-                    <img src="images/woman.svg">
-                        <h2>This is a title</h2>
-                            <span>This is a subheading</span>
-                </div><!--End of Heading-->
+                <div class="hero">
+                    <h3>Material Design Flex Card</h3>
+                </div><!--End of Hero-->
 
                 <div class="content">
-                    <img class="featured-img" src="images/sunrise.jpg">
-                    <p>This is content for the material flexbox card section. Woot woot. Now what we need to figure out is how we can make a sticky footer. ARGHHHH</p>
+                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
                 </div><!--End of Content-->
 
                 <div class="footer">
-                    <p>This is the footer content</p>
+                    <p>Learn More</p>
                 </div><!--End Footer-->
             </div><!--End Flex Card-->
+
+            <div class="flex-card">
+                <div class="hero">
+                    <h3>Material Design Flex Card</h3>
+                </div><!--End of Hero-->
+
+                <div class="content">
+                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
+                </div><!--End of Content-->
+
+                <div class="footer">
+                    <p>Learn More</p>
+                </div><!--End Footer-->
+            </div><!--End Flex Card-->
+
 
             
-             <!--=============CARD #3=======-->
-                
-
-            <div class="flex-card">
-                <div class="heading">
-                    <img src="images/surfer.svg">
-                        <h2>This is a title</h2>
-                            <span>This is a subheading</span>
-                </div><!--End of Heading-->
-
-                <div class="content">
-                    <img class="featured-img" src="images/sunrise.jpg">
-                    <p>This is content for the material flexbox card section. Woot woot. Now what we need to figure out is how we can make a sticky footer. ARGHHHH</p>
-                </div><!--End of Content-->
-
-                <div class="footer">
-                    <p>This is the footer content</p>
-                </div><!--End Footer-->
-            </div><!--End Flex Card-->
         </div> <!--End Container-->   
 
 
@@ -105,6 +89,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
