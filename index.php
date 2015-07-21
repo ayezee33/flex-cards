@@ -37,18 +37,20 @@
                     <button class="hvr-pop"><img src="images/plus.svg"></button>
         </div>
 
-        <div class="flex-container">
+        <div class="flex-container animated zoomIn">
             <div class="flex-card">
                 <div class="hero">
                     <h3>Material Design Flex Card</h3>
                 </div><!--End of Hero-->
 
                 <div class="content">
-                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
                 </div><!--End of Content-->
 
                 <div class="footer">
                     <p>Learn More</p>
+                        <img src="images/codepen.png">
+                        <img src="images/GitHub-Mark.png">
                 </div><!--End Footer-->
             </div><!--End Flex Card-->
 
@@ -58,11 +60,13 @@
                 </div><!--End of Hero-->
 
                 <div class="content">
-                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
                 </div><!--End of Content-->
 
                 <div class="footer">
                     <p>Learn More</p>
+                        <img src="images/codepen.png">
+                        <img src="images/GitHub-Mark.png">
                 </div><!--End Footer-->
             </div><!--End Flex Card-->
 
@@ -72,16 +76,15 @@
                 </div><!--End of Hero-->
 
                 <div class="content">
-                    <p>This is the flex cards content region. Put some meaningful content here that describes what the card is. This should be short and concise since we have a learn more link.</p>
+                    <p>This is content. Content is good because it can give context. Unless it is convuluted, in which case it can be rather confusing.</p>
                 </div><!--End of Content-->
 
                 <div class="footer">
                     <p>Learn More</p>
+                        <img src="images/codepen.png">
+                        <img src="images/GitHub-Mark.png">
                 </div><!--End Footer-->
-            </div><!--End Flex Card-->
-
-
-            
+            </div><!--End Flex Card-->            
         </div> <!--End Container-->   
 
 

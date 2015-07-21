@@ -1,0 +1,156 @@
+
+/*=======GLOBALS======*/
+$primary:#3F51B5;
+$dark-primary:#303F9F;
+$cyan:#0097A7;
+$slate:#607D8B;
+$gray:#eee;
+$white:#ffffff;
+$dark-gray:#555;
+
+body {
+	font-size:16px;
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	color:#4a4a4a;
+}
+.slate {
+	background:$slate!important;
+}
+.cyan {
+	background:$cyan!important;
+}
+button {
+	background:$cyan;
+	border:none;
+	border-radius:50%;
+	padding:1rem;
+	margin:0;
+	font-size:1rem;
+	box-shadow:0 3px 3px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.flex-container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.flex-nav {
+	flex-grow:1;
+	flex-shrink:0;
+	background:$dark-primary;
+	height:3rem;
+}
+.flex-menu {
+	padding:1rem 2rem;
+	float:right;
+}
+
+.featured {
+	background:$primary;
+	color:$white;
+	padding:3rem;
+
+	h1 {
+		font-size:5rem;
+		margin:0;
+		font-weight:300;
+	}
+
+	h2 {
+		font-weight:300;
+	}
+	img {
+		display:block;
+	}
+ }
+
+.flex-card {
+ 	flex:1;
+	flex-grow:1;
+	flex-shrink:0;
+	display:flex;
+	flex-wrap:wrap;
+	background:$white;
+	margin:.5rem;
+	-webkit-transition:all 250ms;
+	-moz-transition:all 250ms;
+	transition:all 250ms;
+	box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+	div {
+		flex: 100%;
+
+	}
+	.hero {
+		position:relative;
+		color:$white;
+		height:200px;
+		background:linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://unsplash.it/200/300
+) no-repeat;
+    background-size:cover;
+
+		h3 {
+			position: absolute;
+    	bottom: 0;
+    	left: 0;
+    	padding:0 1rem;
+		}
+	}
+
+	.content {
+		color:$dark-gray;
+		padding:1rem 1rem  2rem 1rem;
+		}
+
+	.footer {
+		color:$cyan;
+		padding:1rem;
+		border-top:1px solid $gray;
+		align-self:flex-end;
+		font-size:1rem;
+	}
+		img {
+			display:inline-block;
+			width:32px;
+		}
+}
+
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
