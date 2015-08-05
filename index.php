@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="stylesheets/app.css">
         <srcipt src="js/wow.min.js"></srcipt>
+        <srcipt src="js/main.js"></srcipt>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
         <script>
@@ -34,7 +35,7 @@
             <h1>Material Flex Cards</h1>
                 <h2>The is a small project to utilize material design, flexbox, and information cards.</h2>
                     <p>Click the button to create cards.</p>
-                    <button class="hvr-pop"><img src="images/plus.svg"></button>
+                    <button id="duplicateCard" class="hvr-pop"><img src="images/plus.svg"></button>
         </div>
 
         <div class="flex-container animated zoomIn">
@@ -70,7 +71,7 @@
                 </div><!--End Footer-->
             </div><!--End Flex Card-->
 
-            <div class="flex-card">
+            <div id="flexCard" class="flex-card">
                 <div class="hero">
                     <h3>Material Design Flex Card</h3>
                 </div><!--End of Hero-->
@@ -84,15 +85,15 @@
                         <img src="images/codepen.png">
                         <img src="images/GitHub-Mark.png">
                 </div><!--End Footer-->
-            </div><!--End Flex Card-->            
-        </div> <!--End Container-->   
+            </div><!--End Flex Card-->
+        </div> <!--End Container-->
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 

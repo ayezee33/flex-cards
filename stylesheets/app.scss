@@ -50,6 +50,9 @@ button {
 	background:$primary;
 	color:$white;
 	padding:3rem;
+	margin-bottom:3rem;
+	box-shadow:0 6px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 
 	h1 {
 		font-size:5rem;
@@ -69,6 +72,7 @@ button {
  	flex:1;
 	flex-grow:1;
 	flex-shrink:0;
+	flex-basis:400px;
 	display:flex;
 	flex-wrap:wrap;
 	background:$white;
@@ -89,9 +93,8 @@ button {
 		background:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url(https://unsplash.it/200/300
-) no-repeat;
-    background-size:cover;
+    ), url(https://unsplash.it/200/300) no-repeat;
+      background-size:cover;
 
 		h3 {
 			position: absolute;
