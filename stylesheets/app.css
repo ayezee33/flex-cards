@@ -68,7 +68,7 @@ button {
     position: relative;
     color: #ffffff;
     height: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://unsplash.it/200/300) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://unsplash.it/400/500) no-repeat;
     background-size: cover; }
     .flex-card .hero h3 {
       position: absolute;
